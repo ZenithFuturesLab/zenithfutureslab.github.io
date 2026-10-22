@@ -9,7 +9,8 @@ export const partnersData: Partner[] = [
     { name: 'SeoulTech', logo: '/assets/partners/1.webp', link: 'https://www.seoultech.ac.kr/' },
     { name: 'SeoulTech RISE', logo: '/assets/partners/2.webp', link: 'https://rise.seoultech.ac.kr/' },
     // 서울과학기술대학교 기술지주회사 (SeoulTech Holdings) 파트너사 정보
-    { name: 'SeoulTech Holdings', logo: '/assets/partners/seoultech_holdings.png', link: 'https://seoultech-holdings.com/' },
+    // 하단에 텍스트 및 심볼 바디가 집중되어 있어 발생하는 시각적 중심축 불일치(Optical Alignment)를 보정하기 위해 -translate-y-1.5(상향 6px 오프셋) 적용
+    { name: 'SeoulTech Holdings', logo: '/assets/partners/seoultech_holdings.png', link: 'https://seoultech-holdings.com/', className: '-translate-y-1.5' },
     { name: 'Seoul Metropolitan Government', logo: '/assets/partners/seoul_metro.png', link: 'https://www.seoul.go.kr/', className: '-translate-y-1.5' },
     { name: 'Ministry of Education', logo: '/assets/partners/moe_logo.webp', link: 'https://www.moe.go.kr/', className: 'scale-125' },
     { name: 'Korea Foundation for Science and Creativity', logo: '/assets/partners/kofac.jpg', link: 'https://www.kofac.re.kr/', className: 'scale-125' },
