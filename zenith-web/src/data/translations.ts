@@ -69,9 +69,9 @@ export const translations = {
                     desc: 'Successfully passed the System Acceptance Review and selected as one of the Top 38 finalists for URC 2026.',
                 },
                 urc: {
-                    year: '2026.05',
+                    year: '2026.06',
                     title: 'University Rover Challenge 2026',
-                    desc: 'Preparing to compete in the University Rover Challenge in Utah, USA.',
+                    desc: 'Competed in the University Rover Challenge 2026 in Utah, USA, and successfully finished 26th overall among top university teams worldwide.',
                 },
             },
         },
@@ -306,9 +306,9 @@ export const translations = {
                     desc: 'System Acceptance Review(SAR)를 우수한 성적으로 통과하여 전 세계 100여 개 팀 중 URC 2026 본선 진출 38팀에 최종 선정되었습니다.',
                 },
                 urc: {
-                    year: '2026.05',
+                    year: '2026.06',
                     title: 'University Rover Challenge 2026',
-                    desc: '미국 유타주에서 열리는 URC 2026 참가를 목표로 전력을 다하고 있습니다.',
+                    desc: '미국 유타주에서 개최된 세계 최대 대학생 화성 로버 경진대회 URC 2026 본선에 참가하여, 전 세계 유수 대학들과 치열하게 경쟁한 끝에 최종 26위를 기록하며 성공적으로 여정을 마쳤습니다.',
                 },
             },
         },

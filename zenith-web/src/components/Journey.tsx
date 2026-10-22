@@ -55,8 +55,9 @@ const Journey = () => {
             year: t('journey.milestones.urc.year'),
             title: t('journey.milestones.urc.title'),
             description: t('journey.milestones.urc.desc'),
-            icon: <Rocket size={20} />,
-            image: "/assets/journey/2026_urc.jpg"
+            // 마일스톤: URC 2026 최종 26위 달성 기념 트로피(Trophy) 아이콘으로 업그레이드
+            icon: <Trophy size={20} />,
+            image: "/assets/journey/2026_urc.webp"
         }
     ];
 
